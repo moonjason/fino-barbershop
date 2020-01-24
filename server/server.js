@@ -8,8 +8,10 @@ const app = express();
 // allow cross origin requests
 app.use(cors());
 
+app.use('/yelp', yelpRouter)
+
 app.use('/graphql', graphqlHTTP({
-    //schema,
+    yelpRouter,
     graphiql: true
 }))
 
