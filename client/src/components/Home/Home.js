@@ -19,7 +19,14 @@ const Home = () => {
     }, [])
 
     return (
-        <div class="home"> Home </div>
+        <div className="home"> 
+            <header className="header-container">
+                <h1 className="title">Fino's Barbershop</h1>
+            </header>
+            <div>
+                
+            </div>
+        </div>
     )
 }
 

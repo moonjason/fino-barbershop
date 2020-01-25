@@ -41,10 +41,26 @@ html {
     border-bottom: 1px solid #e50914;
 }
 
+.header-container {
+    padding: 10vw 6vw 0 6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Yesteryear', cursive;
+    font-size: 75px;
+    text-align: center;
+}
+
 @media only screen and (min-width: 767px) {
     .brand {
         position: absolute;
         padding-left: 12vw;
+    }
+    .title {
+        font-size: 150px;
     }
   }
 
