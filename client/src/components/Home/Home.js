@@ -23,8 +23,13 @@ const Home = () => {
             <header className="header-container">
                 <h1 className="title">Fino's Barbershop</h1>
             </header>
-            <div>
-                
+            <div className="header-elements">
+                <div className="header__images">
+                    <p>images</p>
+                </div>
+                <div className="header__business-card">
+                    <p>Business</p>
+                </div>
             </div>
         </div>
     )
