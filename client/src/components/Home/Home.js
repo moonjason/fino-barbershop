@@ -20,8 +20,14 @@ const Home = () => {
 
     return (
         <div className="home"> 
-            <header className="header-container">
-                <h1 className="title">Fino's Barbershop</h1>
+            <header className="header">
+                <h1 className="header__title">Fino's Barbershop</h1>
+                <div className="header-business-card">
+                    <h6>333 S Catalina St</h6>
+                    <h6>Los Angeles, CA 90020</h6>
+                    <h6>(213) 858-2325</h6>
+                    <h6 className="app--only">*Appointment Only</h6>
+                </div>
             </header>
             <div className="header-elements">
                 <div className="header__images">

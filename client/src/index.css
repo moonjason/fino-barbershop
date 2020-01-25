@@ -41,9 +41,9 @@ html {
     border-bottom: 1px solid #e50914;
 }
 
-.header-container {
+.header {
     height: 100%;
-    padding: 4vh 6vw 3.5vh 6vw;
+    padding: 4vh 6vw 1vh 6vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,7 +52,18 @@ html {
     background-size: 1500px 1100px;
 }
 
-.title {
+.header-business-card {
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: 'Lato', sans-serif;
+    padding-top: .5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__title {
     font-family: 'Yesteryear', cursive;
     font-size: 75px;
     text-align: center;
@@ -79,23 +90,30 @@ html {
     grid-area: 2 / 2 / 3 / 6; 
 }
 
+.app--only {
+    font-size: 12px;
+}
+
 @media only screen and (min-width: 767px) {
     .brand {
         position: absolute;
         padding-left: 12vw;
     }
-    .title {
+    .header__title {
         font-size: 100px;
+        margin-bottom: 20px;
     }
-    .header-container{
+    .header{
         padding: 8vh 6vw 8vh 6vw;
     }
-  }
+}
+
 @media only screen and (min-width: 1113px) {
-    .title {
+    .header__title {
         font-size: 150px;
+        margin-bottom: 25px;
     }
-    .header-container{
-        padding: 6vw 0 6vw;
+    .header {
+        /*padding: 0*/
     }
-  }
+}
