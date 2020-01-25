@@ -19,7 +19,7 @@ const Home = () => {
     }, [])
 
     return (
-        <div> Home </div>
+        <div class="home"> Home </div>
     )
 }
 
