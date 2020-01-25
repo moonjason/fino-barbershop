@@ -4,7 +4,9 @@
 }
 
 .brand {
+    font-family: 'Yesteryear', cursive;
     padding-left: 5vw;
+    font-size: 38px;
 }
 
 .nav__item {
