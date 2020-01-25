@@ -2,7 +2,6 @@ import React from 'react';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-
 const PageNav = () => {
     return (
             <Navbar bg="light" expand="md">
