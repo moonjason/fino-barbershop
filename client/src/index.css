@@ -4,13 +4,17 @@
 }
 
 .brand {
-    padding-left: 25px;
+    padding-left: 5vw;
+}
+
+.nav__item {
+    padding: 0 40px;
 }
 
 @media only screen and (min-width: 767px) {
     .brand {
         position: absolute;
-        padding-left: 175px;
+        padding-left: 12vw;
     }
   }
 
