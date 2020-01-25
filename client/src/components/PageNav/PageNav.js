@@ -5,15 +5,23 @@ import Nav from 'react-bootstrap/Nav';
 
 const PageNav = () => {
     return (
-        <Navbar bg="light" expand="lg">
-            <Navbar.Brand>Fino's</Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center mr-auto"> 
-                    <Navbar.Text>Home</Navbar.Text>
-                    <Navbar.Text>Gallery</Navbar.Text>
-                    <Navbar.Text>About</Navbar.Text>
-            </Navbar.Collapse>
-        </Navbar>
+            <Navbar bg="light" expand="md">
+                    <Navbar.Brand className="brand">Fino's</Navbar.Brand>                        
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center"> 
+                        <Nav>
+                            <Nav.Item>
+                                <Nav.Link>Home</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link>Gallery</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link>About</Nav.Link>
+                            </Nav.Item>
+                        </Nav>
+                    </Navbar.Collapse>
+            </Navbar>
     )
 }
 
