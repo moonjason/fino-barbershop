@@ -21,7 +21,7 @@ const Home = () => {
     return (
         <div className="home"> 
             <header className="header">
-                <h1 className="header__title">Fino's Barbershop</h1>
+                <h1 className="header__title">Fino's Barber Shop</h1>
                 <div className="header-business-card">
                     <h6>333 S Catalina St</h6>
                     <h6>Los Angeles, CA 90020</h6>
