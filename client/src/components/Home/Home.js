@@ -37,6 +37,17 @@ const Home = () => {
                     <p>Business</p>
                 </div>
             </div>
+            <div className="reviews-container">
+                <div className="review review__1">
+                    <p>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</p>
+                </div>
+                <div className="review review__2">
+                    <p>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</p>
+                </div>
+                <div className="review review__3"> 
+                    <p>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</p>
+                </div>
+            </div>
         </div>
     )
 }
