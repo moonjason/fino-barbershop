@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+import StarRatings from 'react-star-ratings';
+
 const Home = () => {
     const [yelpData, setYelpData] = useState([]);
 
@@ -39,12 +41,30 @@ const Home = () => {
             </div>
             <div className="reviews-container">
                 <div className="review review__1">
+                    <StarRatings 
+                        rating={4.5}
+                        starRatedColor="#e50914"
+                        starDimension="40px"
+                        starSpacing="7px"
+                    />
                     <p>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</p>
                 </div>
                 <div className="review review__2">
+                    <StarRatings 
+                        rating={4.5}
+                        starRatedColor="#e50914"
+                        starDimension="40px"
+                        starSpacing="7px"
+                    />
                     <p>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</p>
                 </div>
                 <div className="review review__3"> 
+                    <StarRatings 
+                        rating={4.5}
+                        starRatedColor="#e50914"
+                        starDimension="40px"
+                        starSpacing="7px"
+                    />
                     <p>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</p>
                 </div>
             </div>
