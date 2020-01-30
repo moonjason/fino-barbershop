@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import StarRatings from 'react-star-ratings';
 
-const Home = () => {
+  const Home = () => {
     const [yelpData, setYelpData] = useState([]);
 
     useEffect(() => {
@@ -66,6 +66,10 @@ const Home = () => {
                         starSpacing="7px"
                     />
                     <p>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</p>
+                    <div className="review__author">
+                        <span>- User Name</span>
+                        <img src="#"/>
+                    </div>
                 </div>
             </div>
         </div>
