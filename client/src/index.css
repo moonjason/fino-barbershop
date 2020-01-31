@@ -104,10 +104,11 @@ html {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    margin: 4.5rem 6vw;
+    margin: 4rem 6vw;
 }
 
 .review {
+    font-family: 'Lato', sans-serif;
     width: 100%;
     display: block;
     padding: 7vh 2vw;
@@ -118,8 +119,15 @@ html {
 .review__3 { grid-area: 1 / 9 / 2 / 13; } */
 
 .more-reviews {
-    background-color: yellowgreen;
+    display: flex;
+    margin: 0 8vw;
+    height: 2vh;
+    justify-content: flex-end;
+}
 
+.more__reviews {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
 }
 
 @media only screen and (min-width: 767px) {

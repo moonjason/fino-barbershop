@@ -81,7 +81,7 @@ import StarRatings from 'react-star-ratings';
                 </div>
             </div>
             <div className="more-reviews">
-                <p className="more__reviews">More reviews on Yelp</p>
+                <p className="more__reviews">more reviews on Yelp</p>
             </div>
         </div>
     )
