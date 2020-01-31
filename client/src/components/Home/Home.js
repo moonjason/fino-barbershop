@@ -48,6 +48,10 @@ import StarRatings from 'react-star-ratings';
                         starSpacing="7px"
                     />
                     <p>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</p>
+                    <div className="review__author">
+                        <span className="username">- User Name</span>
+                        <img src="#" alt="profile 1"/>
+                    </div>
                 </div>
                 <div className="review review__2">
                     <StarRatings 
@@ -57,6 +61,10 @@ import StarRatings from 'react-star-ratings';
                         starSpacing="7px"
                     />
                     <p>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</p>
+                    <div className="review__author">
+                        <span className="username">- User Name</span>
+                        <img src="#" alt="profile 2"/>
+                    </div>
                 </div>
                 <div className="review review__3"> 
                     <StarRatings 
@@ -67,10 +75,13 @@ import StarRatings from 'react-star-ratings';
                     />
                     <p>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</p>
                     <div className="review__author">
-                        <span>- User Name</span>
-                        <img src="#"/>
+                        <span className="username">- User Name</span>
+                        <img src="#" alt="profile 3"/>
                     </div>
                 </div>
+            </div>
+            <div className="more-reviews">
+                    <p className="more__reviews">More reviews on Yelp</p>
             </div>
         </div>
     )
