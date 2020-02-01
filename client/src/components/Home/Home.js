@@ -49,7 +49,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
                         starDimension="40px"
                         starSpacing="7px"
                     />
-                    <p>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</p>
+                    <p><em>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</em></p>
                     <div className="review__author">
                         <span className="username">- User Name</span>
                         <img src="#" alt="profile 1"/>
@@ -62,7 +62,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
                         starDimension="40px"
                         starSpacing="7px"
                     />
-                    <p>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</p>
+                    <p><em>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</em></p>
                     <div className="review__author">
                         <span className="username">- User Name</span>
                         <img src="#" alt="profile 2"/>
@@ -75,7 +75,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
                         starDimension="40px"
                         starSpacing="7px"
                     />
-                    <p>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</p>
+                    <p><em>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</em></p>
                     <div className="review__author">
                         <span className="username">- User Name</span>
                         <img src="#" alt="profile 3"/>
