@@ -43,42 +43,45 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
             </div>
             <div className="reviews-container">
                 <div className="review review__1">
-                    <StarRatings 
-                        rating={4.5}
-                        starRatedColor="#e50914"
-                        starDimension="40px"
-                        starSpacing="7px"
-                    />
-                    <p><em>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</em></p>
+                    <div className="star-container">
+                        <StarRatings
+                            rating={5}
+                            starRatedColor="#e50914"
+                            starDimension="22px"
+                            starSpacing="3px"
+                        />
+                    </div>
+                    <p><em>"Awesome barber that takes pride in what he does. Low key spot and gives you full attention. Very convenient you can schedule through text and times are flexible. Will be coming back often."</em></p>
                     <div className="review__author">
-                        <span className="username">- User Name</span>
-                        <img src="#" alt="profile 1"/>
+                        <span className="username">- <strong>Rizzo K.</strong></span>
                     </div>
                 </div>
                 <div className="review review__2">
-                    <StarRatings 
-                        rating={4.5}
-                        starRatedColor="#e50914"
-                        starDimension="40px"
-                        starSpacing="7px"
-                    />
-                    <p><em>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</em></p>
+                    <div className="star-container">
+                        <StarRatings
+                            rating={5}
+                            starRatedColor="#e50914"
+                            starDimension="22px"
+                            starSpacing="3px"
+                        />
+                    </div>
+                    <p><em>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush. ... Can't recommend this barber enough"</em></p>
                     <div className="review__author">
-                        <span className="username">- User Name</span>
-                        <img src="#" alt="profile 2"/>
+                        <span className="username">- <strong>Carlo Q.</strong></span>
                     </div>
                 </div>
                 <div className="review review__3"> 
-                    <StarRatings 
-                        rating={4.5}
-                        starRatedColor="#e50914"
-                        starDimension="40px"
-                        starSpacing="7px"
-                    />
-                    <p><em>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush."</em></p>
+                    <div className="star-container">
+                        <StarRatings
+                            rating={5}
+                            starRatedColor="#e50914"
+                            starDimension="22px"
+                            starSpacing="3px"
+                        />
+                    </div>
+                    <p><em>"Very detailed and knows how important hair can be for men. I was very satisfied with the laidback atmosphere and his flexibility. I highly recommend this place. I'm coming back for my next cuts!"</em></p>
                     <div className="review__author">
-                        <span className="username">- User Name</span>
-                        <img src="#" alt="profile 3"/>
+                        <span className="username">- <strong>Darin J.</strong></span>
                     </div>
                 </div>
             </div>
