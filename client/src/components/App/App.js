@@ -6,7 +6,14 @@ import Home from '../Home/Home';
 import Gallery from '../Gallery/Gallery';
 import About from '../About/About';
 
-const App = () => {
+// font awesome 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import {  } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab);
+
+const App = () => { 
   return (
     <div className="App">
       <PageNav/>
