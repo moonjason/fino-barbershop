@@ -5,6 +5,7 @@ import PageNav from '../PageNav/PageNav';
 import Home from '../Home/Home';
 import Gallery from '../Gallery/Gallery';
 import About from '../About/About';
+import Footer from '../Footer/footer';
 
 // font awesome 
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -22,6 +23,7 @@ const App = () => {
         <Route exact path={'/gallery'} render={() => <Gallery/>}/>
         <Route exact path={'/about'} render={() => <About/>}/>
       </Switch>
+      <Footer/>
     </div>
   );
 }
