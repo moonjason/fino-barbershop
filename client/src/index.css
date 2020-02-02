@@ -171,11 +171,16 @@ html {
 
 
 .photo {
-    max-width: 40px;
-    max-height: 40px;
+    margin: 0 2vw;
+    /* max-width: 50%;
+    max-height: 100%; */
+    max-width: 26rem;
+    max-height: 26rem;
+    border: 4px ridge #e50914;
 }
 
 #pricing-container {
+    padding-top: 4vh;
     width: 85%;
     height: 55vh;
     margin: 5vh auto;
@@ -185,11 +190,10 @@ html {
 #pricing__carousel{
     width: 50%;
     display: flex;
+    /* flex-direction: column; */
     justify-content: center;
-    /* flex-direction: column;
-    justify-content: center;
-    align-items: center;  */
-    background-color: skyblue;
+    align-items: center; 
+    /* background-color: skyblue; */
 }
 
 #pricing__text {
