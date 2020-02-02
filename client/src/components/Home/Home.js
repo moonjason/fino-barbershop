@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 import StarRatings from 'react-star-ratings';
 
+import Pricing from '../Pricing/Pricing';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
   const Home = () => {
@@ -33,14 +35,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
                     <h6 className="app--only">*Appointment Only</h6>
                 </div>
             </header>
-            <div className="header-elements">
+            <Pricing/>
+            {/* <div className="header-elements">
                 <div className="header__images">
                     <p>images</p>
                 </div>
                 <div className="header__business-card">
                     <p>Business</p>
                 </div>
-            </div>
+            </div> */}
             <div className="reviews-container">
                 <div className="review review__1">
                     <div className="star-container">
@@ -65,7 +68,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
                             starSpacing="3px"
                         />
                     </div>
-                    <p><em>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush. ... Can't recommend this barber enough"</em></p>
+                    <p><em>"This is my guy. Consistent, super flexible, always on time, respectful, always gets it right, and I never felt like I was in a rush. Can't recommend this barber enough"</em></p>
                     <div className="review__author">
                         <span className="username">- <strong>Carlo Q.</strong></span>
                     </div>
