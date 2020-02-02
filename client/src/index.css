@@ -169,6 +169,12 @@ html {
     margin: 0 22px;
 }
 
+
+.photo {
+    max-width: 40px;
+    max-height: 40px;
+}
+
 #pricing-container {
     width: 85%;
     height: 55vh;
@@ -177,11 +183,12 @@ html {
 }
 
 #pricing__carousel{
-    width:50%;
+    width: 50%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center;  */
     background-color: skyblue;
 }
 

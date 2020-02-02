@@ -35,6 +35,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
                     <h6 className="app--only">*Appointment Only</h6>
                 </div>
             </header>
+            <img className="photo" src="../img/fino-bmw1.jpeg" alt="fino 1"/>
+
             <Pricing/>
             {/* <div className="header-elements">
                 <div className="header__images">
