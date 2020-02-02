@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import StarRatings from 'react-star-ratings';
 
+import Welcome from '../Welcome/Welcome';
 import Pricing from '../Pricing/Pricing';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -35,6 +36,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
                     <h6 className="app--only">*Appointment Only</h6>
                 </div>
             </header>
+            <Welcome/>
             <Pricing/>
             {/* <div className="header-elements">
                 <div className="header__images">
