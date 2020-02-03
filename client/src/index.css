@@ -172,7 +172,7 @@ html {
 
 .photo {
     margin: 0 1vw;
-    max-width: 50%;
+    max-width: 90%;
     max-height: 100%;
     /* max-width: 26rem;
     max-height: 26rem; */
@@ -187,6 +187,10 @@ html {
     border-bottom: 1px solid #221f1f;
     margin-bottom: 1.5rem;
     width: 75vw;
+}
+
+.pricing--desc{
+    width: 90vw;
 }
 
 #pricing-container {

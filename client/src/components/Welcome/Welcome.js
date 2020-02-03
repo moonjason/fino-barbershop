@@ -12,7 +12,7 @@ const Welcome = () => {
 
             <div id="pricing__text">
                 <h1 className="pricing--title">Welcome to Fino's</h1>
-                <h5>Great quality cuts and good vibes.</h5>
+                <h5 className="pricing--desc">Great quality cuts and good vibes.</h5>
             </div>
 
         </div>
