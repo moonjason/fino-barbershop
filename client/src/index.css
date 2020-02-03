@@ -171,28 +171,46 @@ html {
 
 
 .photo {
-    margin: 0 2vw;
-    /* max-width: 50%;
-    max-height: 100%; */
-    max-width: 26rem;
-    max-height: 26rem;
+    margin: 0 1vw;
+    max-width: 50%;
+    max-height: 100%;
+    /* max-width: 26rem;
+    max-height: 26rem; */
     border: 4px ridge #e50914;
 }
 
 .pricing--title{
     font-family: 'Yesteryear', cursive;
     font-size: 4rem;
+    padding-top: 2rem;
     padding-bottom: .5rem;
     border-bottom: 1px solid #221f1f;
     margin-bottom: 1.5rem;
+    width: 75vw;
 }
 
 #pricing-container {
     padding-top: 4vh;
+    /* margin: 6vh 0; */
     width: 85%;
-    height: 55vh;
+    /* height: 55vh; */
     margin: 5vh auto;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#pricing-containertwo{
+    padding-top: 6vh;
+    /* margin: 6vh 0; */
+    width: 85%;
+    /* height: 55vh; */
+    margin: 5vh auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
 }
 
 #pricing__carousel{
@@ -255,6 +273,19 @@ html {
     .header-business-card {
         margin-bottom: 0;
     }
+    .pricing--title{
+        padding-top: 0;
+        width: 31vw;
+    }
+    #pricing__text {
+        padding-left: 8rem;
+    }
+    #pricing__texttwo{
+        padding-right: 8.5rem;
+    }
+    #pricing-container, #pricing-containertwo{
+        flex-direction: row;
+    }
 }
 
 @media only screen and (min-width: 1113px) {
@@ -264,5 +295,9 @@ html {
     }
     .header {
         background-size: 100vw 140vh;
+    }
+    .photo {
+        max-width: 26rem;
+        max-height: 26rem;
     }
 }
