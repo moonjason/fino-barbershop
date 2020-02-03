@@ -214,6 +214,26 @@ html {
     /* background-color: pink; */
 }
 
+#pricing__carouseltwo{
+    width: 50%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center; 
+    /* background-color: #221f1f; */
+}
+
+#pricing__texttwo {
+    font-family: 'Lato', sans-serif;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #221f1f;
+    color: #f5f5f1; */
+}
+
 @media only screen and (min-width: 767px) {
     .brand {
         position: absolute;
