@@ -4,6 +4,7 @@ import StarRatings from 'react-star-ratings';
 
 import Welcome from '../Welcome/Welcome';
 import Pricing from '../Pricing/Pricing';
+import Why from '../Why/Why';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -38,6 +39,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
             </header>
             <Welcome/>
             <Pricing/>
+            <Why/>
             {/* <div className="header-elements">
                 <div className="header__images">
                     <p>images</p>
