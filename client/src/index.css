@@ -196,11 +196,15 @@ html {
 
 .pricing--desc{
     width: 20rem;
-    padding-left: 12vw;
+    position: relative;
+    left: 4vw;
+    /* padding-left: 12vw; */
 }
 
 .pricing--num {
-    padding-right: 12vw;
+    position: relative;
+    right: 4vw;
+    /* padding-right: 12vw; */
 }
 
 #menu{
@@ -211,6 +215,7 @@ html {
     display: flex;
     flex-direction: column;
     text-align: left;
+    /* width: 50%; */
 }
 
 #pricing-num-container{
@@ -313,6 +318,17 @@ html {
     align-items: center;
 }
 
+/* IPAD VIEW */
+@media (height: 1024px) and (width: 768px) {
+    #pricing-container {
+        margin-left: 2rem;
+    }
+    #pricing-containertwo{
+        margin-left: 16.5vw;
+    }
+}
+
+
 @media only screen and (min-width: 767px) {
     .brand {
         position: absolute;
@@ -336,7 +352,7 @@ html {
     }
     .pricing--title{
         padding-top: 0;
-        width: 31vw;
+        width: 20vw;
     }
     .photo {
         max-width: 40%;
@@ -361,6 +377,12 @@ html {
         padding-top: 4rem;
         padding-bottom: 3rem;
     }
+    /* #pricing-container {
+        margin-left: 2rem;
+    }
+    #pricing-containertwo{
+        margin-left: 16.5vw;
+    } */
 }
 
 @media only screen and (min-width: 1113px) {
