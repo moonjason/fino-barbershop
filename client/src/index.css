@@ -135,6 +135,12 @@ html {
 .more__reviews {
     font-family: 'Lato', sans-serif;
     font-size: 15px;
+    opacity: .5
+}
+
+.more__reviews:hover{
+    opacity: 1;
+    cursor: pointer;
 }
 
 
