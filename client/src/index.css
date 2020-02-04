@@ -138,7 +138,6 @@ html {
 }
 
 
-
 /* Footer */
 
 .footer-container {
@@ -191,6 +190,26 @@ html {
 
 .pricing--desc{
     width: 20rem;
+    padding-left: 12vw;
+}
+
+.pricing--num {
+    padding-right: 12vw;
+}
+
+#menu{
+    display: flex;
+}
+
+#pricing-desc-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#pricing-num-container{
+    display: flex;
+    flex-direction: column;
 }
 
 /* THE WHY COMPONENT START */
@@ -315,6 +334,12 @@ html {
     }
     .photo {
         max-width: 40%;
+    }
+    .pricing--desc{
+        padding-left: 0;
+    }
+    .pricing--num {
+        padding-right: 0;
     }
     #pricing__text {
         padding-left: 8rem;
