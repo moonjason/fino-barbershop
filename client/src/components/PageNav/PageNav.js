@@ -12,7 +12,7 @@ const navLinkActive = {
 
 const PageNav = () => {
     return (
-            <Navbar style={{"backgroundColor": "#f5f5f1"}} expand="md">
+            <Navbar style={{"backgroundColor": "#f5f5f1", "borderBottom": "1px solid #221f1f"}} expand="md">
                     <Navbar.Brand className="brand"><Link className="link" to="/">Fino's</Link></Navbar.Brand>                        
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center"> 
