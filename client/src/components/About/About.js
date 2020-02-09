@@ -4,7 +4,10 @@ const About = () => {
     return(
         <div id="about">
             <h1 id="about__title">About Me</h1>
-            <img className="abt-image" src="img/fino-bmw1.jpeg" alt="fino bmw"/>
+            <div id="msg-container">
+                <img className="abt-image" src="img/fino-bmw1.jpeg" alt="fino bmw"/>
+                
+            </div>
         </div>
     )
 }
