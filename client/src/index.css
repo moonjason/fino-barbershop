@@ -211,7 +211,7 @@ html {
 .abt-image{
     max-width: 65vw;
     max-height: 55vh;
-    margin-bottom: 7vh;
+    /* margin-bottom: 7vh; */
     border: 6px solid #c7131c;
     border-radius: 1rem;
 }
@@ -222,9 +222,9 @@ html {
 
 #about {
     background-color: #f5f5f1;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
 }
 
 #about__title{
@@ -344,6 +344,28 @@ html {
     align-items: center;
 }
 
+#msg-container{
+    /* margin: 0 5vw; */
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25vh;
+}
+
+#msg-container__1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#msg-container__2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vh;
+}
 /* IPAD VIEW */
 @media (height: 1024px) and (width: 768px) {
     #pricing-container {
@@ -403,12 +425,20 @@ html {
         padding-top: 4rem;
         padding-bottom: 3rem;
     }
-    /* #pricing-container {
-        margin-left: 2rem;
+    #msg-container{
+        flex-direction: row;
     }
-    #pricing-containertwo{
-        margin-left: 16.5vw;
-    } */
+    #msg-container__1{
+        width: 50%;
+    }
+    #msg-container__2{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 4.5vw 24vh 4.5vw;
+    }
 }
 
 @media only screen and (min-width: 1113px) {
