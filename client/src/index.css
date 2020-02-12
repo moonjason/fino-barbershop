@@ -367,7 +367,8 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 3vh;
+    text-align: center;
+    padding: 2.5rem 2rem;
 }
 
 #about-icon-container{
@@ -445,7 +446,8 @@ html {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0 4.5vw 24vh 4.5vw;
+        text-align: left;
+        padding: 4vh 4.5vw 24vh 4.5vw;
     }
 }
 
