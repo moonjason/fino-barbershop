@@ -17,7 +17,7 @@ const About = () => {
                     Being a barber allows me to channel one of my artistic ambitions as I am also very involved in music. So if I'm not cutting hair, I'm on the grind to make a name for myself in the music industry. 
                     <br/>
                     <br/>
-                    Click on any of the links below to support my journey! Thank you for stopping by my website.</div>
+                    The links below are my personal socials. Click on them to support my journey! Thank you for stopping by my website.</div>
                     <div id="about-icon-container">
                         <FontAwesomeIcon className="about--icon" size="2x" icon={['fab', 'instagram']}/>
                         <FontAwesomeIcon className="about--icon" size="2x" icon={['fab', 'soundcloud']}/>

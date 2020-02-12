@@ -375,6 +375,12 @@ html {
     padding-top: 5.5vh;
     display: flex;
 }
+
+/* Gallery START*/
+#gallery-container{ 
+    background-color: #f5f5f1;
+}
+/* Gallery END */ 
 /* IPAD VIEW */
 @media (height: 1024px) and (width: 768px) {
     #pricing-container {
