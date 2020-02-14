@@ -386,7 +386,7 @@ html {
 }
 
 #gallery__grid{
-    margin-left: 1rem;
+    padding-left: 8.75vw;
 }
 /* Gallery END */ 
 /* IPAD VIEW */
@@ -464,7 +464,7 @@ html {
         padding: 4vh 4.5vw 24vh 4.5vw;
     }
     #gallery__grid{
-        margin-left: 6rem;
+        padding-left: 5.75vw;
     }
 }
 

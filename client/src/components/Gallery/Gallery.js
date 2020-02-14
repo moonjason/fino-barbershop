@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
 const img = {
-    'max-width': '35vw'
+    'max-width': '33vw'
 }
 
 const Gallery = () => {
