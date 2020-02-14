@@ -171,7 +171,7 @@ html {
 }
 
 .footer--icon {
-    margin: 0 3vw;
+    margin: 0 9vw;
 }
 
 .footer--icon:hover{
@@ -386,7 +386,7 @@ html {
 }
 
 #gallery__grid{
-    padding-left: 8.75vw;
+    padding-left: 9vw;
 }
 /* Gallery END */ 
 /* IPAD VIEW */
@@ -433,6 +433,9 @@ html {
     }
     .pricing--num {
         position: static;
+    }
+    .footer--icon {
+        margin: 0 3vw;
     }
     #pricing__text {
         padding-left: 8rem;
