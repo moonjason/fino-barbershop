@@ -13,7 +13,7 @@ const Gallery = () => {
     return (
         <div id="gallery-container"> 
             <h1 id="about__title">Gallery</h1>
-            <Container>
+            <Container id="gallery__grid">
                 <Row>
                     <Col>
                         <Image style={img} src="img/fino-bmw2.jpeg" fluid thumbnail/>
@@ -22,7 +22,7 @@ const Gallery = () => {
                         <Image style={img} src="img/app-img.jpg" fluid thumbnail/>
                     </Col>
                 </Row>
-                <Row style={{'paddingTop': '1rem'}}>
+                <Row style={{'paddingTop': '1.25rem'}}>
                     <Col>
                         <Image style={img} src="img/fino-bmw1.jpeg" fluid thumbnail/>
                     </Col>
@@ -30,12 +30,28 @@ const Gallery = () => {
                         <Image style={img} src="img/fino-cut1.jpeg" fluid thumbnail/>
                     </Col>
                 </Row>
-                <Row style={{'paddingTop': '1rem'}}>
+                <Row style={{'paddingTop': '1.25rem'}}>
                     <Col>
                         <Image style={img} src="img/fino-cut2.jpeg" fluid thumbnail/>
                     </Col>
                     <Col>
                         <Image style={img} src="img/fino-cut3.jpeg" fluid thumbnail/>
+                    </Col>
+                </Row>
+                <Row style={{'paddingTop': '1.25rem'}}>
+                    <Col>
+                        <Image style={img} src="img/fino-shop.jpeg" fluid thumbnail/>
+                    </Col>
+                    <Col>
+                        <Image style={img} src="img/fino-mirror.jpeg" fluid thumbnail/>
+                    </Col>
+                </Row>
+                <Row style={{'paddingTop': '1.25rem', 'paddingBottom': '2.5rem'}}>
+                    <Col>
+                        <Image style={img} src="img/fino-posing.jpeg" fluid thumbnail/>
+                    </Col>
+                    <Col>
+                        {/*Enter Photo Here*/}
                     </Col>
                 </Row>
             </Container>
