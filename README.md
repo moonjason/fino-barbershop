@@ -6,12 +6,12 @@ This project was used to test my skills utilizing the basics of a GraphQL. Also 
 
 **Tech:** React, Node, Express, GraphQL, CSS
 
-![full](/Users/admin/Desktop/Projects/fino-barbershop/client/public/img/fino-full-ss.png)
+![full](./client/public/img/fino-full-ss.png)
 
 
 
-![mobile](/Users/admin/Desktop/Projects/fino-barbershop/client/public/img/fino-mobile-ss.png)
+![mobile](./client/public/img/fino-mobile-ss.png)
 
 
 
-![about](/Users/admin/Desktop/Projects/fino-barbershop/client/public/img/fino-about-ss.png)
+![about](./client/public/img/fino-about-ss.png)
